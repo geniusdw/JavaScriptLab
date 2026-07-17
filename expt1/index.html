@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Area Calculator</title>
+</head>
+<body>
+
+    <!-- Circle Section -->
+    <h3>Circle</h3>
+    <input id="radius" type="number" placeholder="Radius">
+    <button onclick="AreaOfCircle()">Calculate Circle</button>
+    <p>Circle Area: <input id="resultCircle" readonly></p>
+
+    <!-- Rectangle Section -->
+    <h3>Rectangle</h3>
+    <input id="length" type="number" placeholder="Length">
+    <input id="width" type="number" placeholder="Width">
+    <button onclick="AreaOfRectangle()">Calculate Rectangle</button>
+    <p>Rectangle Area: <input id="resultRectangle" readonly></p>
+
+    <!-- Triangle Section -->
+    <h3>Triangle</h3>
+    <input id="side1" type="number" placeholder="Side 1">
+    <input id="side2" type="number" placeholder="Side 2">
+    <input id="side3" type="number" placeholder="Side 3">
+    <button onclick="AreaOfTriangle()">Calculate Triangle</button>
+    <p>Triangle Area: <input id="resultTriangle" readonly></p>
+
+    <!-- Linking External JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
