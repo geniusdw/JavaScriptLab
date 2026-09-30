@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+
+    <h2>Student Information Form</h2>
+
+    <!-- Section 1: Name -->
+    <div>
+        Name: <input id="name" type="text">
+    </div>
+    <br>
+
+    <!-- Section 2: Address, City, State -->
+    <div>
+        Address: <input id="address" type="text">
+        City: <input id="city" type="text">
+        State: <input id="state" type="text">
+    </div>
+    <br>
+
+    <!-- Section 3: Gender -->
+    <div>
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+    </div>
+    <br>
+
+    <!-- Section 4: Mobile Number -->
+    <div>
+        Mobile Number: <input id="mobile" type="text">
+    </div>
+    <br>
+
+    <!-- Section 5: Email -->
+    <div>
+        Email: <input id="email" type="text">
+    </div>
+    <br>
+
+    <!-- Section 6: Submit -->
+    <div>
+        <button onclick="submitForm()">Submit</button>
+    </div>
+
+    <h3 id="res"></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
