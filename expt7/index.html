@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Objects</title>
+</head>
+<body>
+
+    <h3>Create Array</h3>
+    <input id="size" type="number" placeholder="Enter array size">
+    <button onclick="createArray()">Initialize Array</button>
+    <br><br>
+
+    <h3>Add / Remove Elements</h3>
+    <input id="element" type="text" placeholder='Enter element (e.g. 10, pict, [1,2,5])'>
+    <button onclick="pushElement()">Push (add at end)</button>
+    <button onclick="unshiftElement()">Unshift (add at start)</button>
+    <button onclick="popElement()">Pop (remove from end)</button>
+    <button onclick="shiftElement()">Shift (remove from start)</button>
+    <p id="msg"></p>
+
+    <h3>Current Array</h3>
+    <p id="arrDisplay"></p>
+
+    <h3>Check Object at Index for Array</h3>
+    <input id="index" type="number" placeholder="Enter array index">
+    <button onclick="checkIndex()">Check</button>
+    <p id="res"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

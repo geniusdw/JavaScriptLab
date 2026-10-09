@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Array Ops</title>
+</head>
+<body>
+
+    <!-- 1st parameter: array length -->
+    <input id="length" type="number" placeholder="Enter array length">
+    <button onclick="createArray()">Create Array</button>
+    <br><br>
+
+    <!-- 2nd parameter: element to be deleted -->
+    <input id="removeVal" type="number" placeholder="Element to delete">
+    <!-- 3rd parameter: value to check in array -->
+    <input id="checkVal" type="number" placeholder="Value to check">
+    <br><br>
+
+    <h3>Using Standard Array Methods</h3>
+    <button onclick="removeItem()">Delete Element</button>
+    <button onclick="checkItem()">Check Value Present</button>
+    <button onclick="emptyArray()">Empty Array</button>
+
+    <h3>Without Standard Array Methods</h3>
+    <button onclick="removeItemManual()">Delete Element</button>
+    <button onclick="checkItemManual()">Check Value Present</button>
+    <button onclick="emptyArrayManual()">Empty Array</button>
+
+    <h3>Array:</h3>
+    <p id="arrDisplay"></p>
+
+    <h3>Result:</h3>
+    <p id="res"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
